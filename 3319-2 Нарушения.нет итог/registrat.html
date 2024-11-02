@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registrat.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <main class="wrap">
+        <h1>Нарушения.NET</h1>
+        <div class="log">
+            <img src="logo/logo.png" alt="" class="logo">
+            <h2>РЕГИСТРАЦИЯ</h2>
+        </div>
+        <form action="#" class="authForm">
+            <lable for="fio">Укажите Ваше ФИО (полностью)</lable>
+            <input type="text" placeholder="Фамилия Имя Отчество" name="fio" required>
+            <lable for="tel">Укажите Ваш номер телефона</lable>
+            <div class="telephon">
+                <p class="help">+7</p>
+            <input type="tel" placeholder="xxx-xxx-xx-xx" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+            </div>
+            <lable for="email">Укажите Ваш электронный адрес</lable>
+            <input type="email" placeholder="mail@mail" name="email" required>
+            <lable for="login">Укажите Ваш логин</lable>
+            <input type="login" placeholder="Введите логин" name="login" required>
+            <lable for="password">Задайте пароль</lable>
+            <input type="password" placeholder="Введите пароль" name="password" required>
+            <lable for="terPassword">Повторите пароль</lable>
+            <input type="password" placeholder="Повторите пароль" name="terPassword" required>
+            <input type="submit" value="Зарегистрироваться">
+        </form>
+        <a href="zaw.html" class="wer">Войти</a>
+    </main>
+</body>
+</html>

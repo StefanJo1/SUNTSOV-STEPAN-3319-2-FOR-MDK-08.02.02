@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/regictr.css">
+    <title>Заполнения заявления</title>
+</head>
+<body>
+    <main class="wrap">
+        <h1>Нарушения.NET</h1>
+        <div class="log">
+            <img src="logo/user-logo.png" alt="" class="logo">
+            <p>ФОРМИРОВАНИЕ НОВОГО ЗАЯВЛЕНИЯ</p>
+        </div>
+        <form  action="#" class="authForm">
+            <lable for="number">Введите автомобильный номер нарушителя</lable>
+            <input type="text" placeholder="X 000 XX код региона" name="number" pattern="[А-Я]{1} [0-9]{3} [А-Я]{2} [0-9]{1,3}" required>
+            <lable for="description">Добавьте описание нарушения</lable>
+            <textarea name="description" cols="30" rows="10" placeholder="Укажите время, место и другую информацию о нарушении"></textarea>
+            <input type="submit" value="Отправить заявление">
+        </form>
+        <a href="zaw.html" class="wer">К заявлениям</a>
+    </main>
+</body>
+</html>
